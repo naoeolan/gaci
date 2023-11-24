@@ -1,0 +1,62 @@
+@import url("style.css");
+
+h1 {
+    font-size: 1.6em;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#graci {
+    margin-top: 20px;
+    width: 20vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.322);
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.401), rgba(0, 0, 0, 0.401));
+    background-size: cover;
+    background-attachment: fixed;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+div#conteudo {
+    color: white;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.461);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.322);
+    padding: 20px;
+    background-color: rgba(154, 30, 207, 0.078);
+    border-radius: 6px;
+    width: 45vw;
+    margin: auto;
+    text-indent: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    div#conteudo {
+        width: 70vw;
+    }
+    h1 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 1.1em;
+        text-align: center;
+    }
+}

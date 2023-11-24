@@ -1,0 +1,31 @@
+@import url("style.css");
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.401), rgba(0, 0, 0, 0.401)), url("../images/montanha-floresta.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#conteudo {
+    color: white;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.461);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.322);
+    padding: 20px;
+    background-color: rgba(30, 207, 30, 0.078);
+    border-radius: 6px;
+    width: 45vw;
+    margin: auto;
+    text-indent: 4px;
+}
+
+#carta {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
+@media screen and (max-width: 600px) {
+    div#conteudo{
+        width: 70vw;
+    }
+}

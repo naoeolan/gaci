@@ -1,0 +1,32 @@
+@import url("style.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301)), url("../images/autumn.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center center;
+    height: 95vh;
+}
+h1 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.322);
+    padding-top: 20vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+#porta-div {
+    width: 95vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#porta {
+    
+    margin-left: 4vw;
+    width: 250px;
+    height: 250px;
+}

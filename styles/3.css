@@ -4,23 +4,36 @@ h1 {
     font-size: 1.6em;
     text-align: center;
 }
+
 h2 {
     text-align: center;
 }
-#graci {
+#msg {
+    background-color: rgba(210, 105, 30, 0.11);
+    padding: 10px;
+    border-radius: 5px;
+}
+#msgp {
+    text-indent: 0px;
+    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#galera {
     margin-top: 20px;
-    width: 20vw;
+    width: 40vw;
     margin-right: auto;
     margin-left: auto;
     display: block;
     border-radius: 4px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.322);
 }
+
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.401), rgba(0, 0, 0, 0.401));
     background-size: cover;
     background-attachment: fixed;
 }
+
 video {
     position: fixed;
     top: 50%;
@@ -39,7 +52,7 @@ div#conteudo {
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.461);
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.322);
     padding: 20px;
-    background-color: rgba(154, 30, 207, 0.078);
+    background-color: rgba(207, 142, 30, 0.078);
     border-radius: 6px;
     width: 45vw;
     margin: auto;
@@ -50,16 +63,28 @@ div#conteudo {
     div#conteudo {
         width: 70vw;
     }
-    #graci {
-        width: 35vw;
+    #galera {
+        width: 50vw;
     }
+
     h1 {
         font-size: 1.3em;
         text-align: center;
     }
-    
+
     h2 {
         font-size: 1.1em;
         text-align: center;
+    }
+    #msg {
+        background-color: rgba(210, 105, 30, 0.11);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #msgp {
+        text-indent: 0px;
+        font-size: 0.7em;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
